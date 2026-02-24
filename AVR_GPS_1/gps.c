@@ -1,6 +1,7 @@
 #include "gps.h"
 
 #include <stdio.h>
+#include <stdint.h>
 #include <string.h>
 #include <stdlib.h>
 #include "convert.h"
@@ -44,9 +45,7 @@ uint8_t GPS_GetLatLon_Text(char *nmea, GPS_Data *gps)
 }
 #endif
 
-#include <stdio.h>
 
-#include <stdint.h>
 
 void knots_to_kmph(char *knots_val, char *kmph_val)
 {
