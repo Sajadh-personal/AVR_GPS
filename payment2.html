@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Techspire Microskill Lab Pvt. Ltd.</title>
+
+<style>
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5f5f5;
+    text-align:center;
+}
+.container{
+    max-width:400px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+}
+button{
+    background:#0F9D58;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+}
+button:hover{
+    background:#0b8043;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Techspire Microskill Lab Pvt. Ltd.</h2>
+
+<h3>Course Fee Payment</h3>
+
+<p>Click the button below to pay using any UPI App.</p>
+
+<button onclick="payNow()">PAY NOW</button>
+
+<p><br>UPI ID</p>
+
+<b>sajadh.km-1@okicici</b>
+
+</div>
+
+<script>
+
+function payNow(){
+
+window.location.href="upi://pay?pa=sajadh.km-1@okicici&pn=Sajadh%20KM&tn=Course%20Fee&cu=INR";
+
+}
+
+</script>
+
+</body>
+</html>
